@@ -27,14 +27,14 @@ const teamData = [
     },
   },
   {
-    memberImage: '/images/member_3.jpeg',
+    memberImage: '/images/ramit.jpeg',
     memberName: 'Ramit Kumar',
     memberDesignation: 'React Developer',
     memberSocial: {
       linkedin: '/',
       twitter: '/',
       youtube: '/',
-      facebook: '/',
+      facebook: '/'
     },
   },
   {

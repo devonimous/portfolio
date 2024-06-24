@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="author" content="Laralink" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
-        <title>Arino Creative Agency Next JS Template</title>
+        <title>Devonimous</title>
       </head>
       <body className={`${openSans.variable} ${poppins.variable}`}>
         <Header />

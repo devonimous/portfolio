@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="author" content="Laralink" />
+        <meta name="author" content="Devonimous" />
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
         <title>Devonimous</title>
       </head>

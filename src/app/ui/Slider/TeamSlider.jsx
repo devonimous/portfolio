@@ -5,6 +5,17 @@ import Div from '../Div';
 import Team from '../Team';
 const teamData = [
   {
+    memberImage: '/images/ramit-3.jpeg',
+    memberName: 'Ramit Kumar',
+    memberDesignation: 'CEO',
+    memberSocial: {
+      linkedin: '/',
+      twitter: '/',
+      youtube: '/',
+      facebook: '/'
+    },
+  },
+  {
     memberImage: '/images/member_1.jpeg',
     memberName: 'Pranav Thakur',
     memberDesignation: 'Product Designer',
@@ -26,17 +37,7 @@ const teamData = [
       facebook: '/',
     },
   },
-  {
-    memberImage: '/images/ramit.jpeg',
-    memberName: 'Ramit Kumar',
-    memberDesignation: 'React Developer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/'
-    },
-  },
+
   {
     memberImage: '/images/member_4.jpeg',
     memberName: 'Shivanshu Sood',
@@ -48,17 +49,7 @@ const teamData = [
       facebook: '/',
     },
   },
-  {
-    memberImage: '/images/member_1.jpeg',
-    memberName: 'Melon Bulgery',
-    memberDesignation: 'Product Designer',
-    memberSocial: {
-      linkedin: '/',
-      twitter: '/',
-      youtube: '/',
-      facebook: '/',
-    },
-  },
+ 
 ];
 
 export default function TeamSlider() {

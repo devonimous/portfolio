@@ -34,7 +34,7 @@ const funfaceData = [
   },
   {
     title: 'Project Completed',
-    factNumber: '15+',
+    factNumber: '15',
   },
   {
     title: 'Team Members',
@@ -213,7 +213,7 @@ export default function Home() {
         </h2>
         <Spacing lg="70" md="70" />
         <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
+          videoSrc="https://www.youtube.com/watch?v=MDoM6H4QjKc"
           bgUrl="/images/video_bg.jpeg"
         />
       </Div>

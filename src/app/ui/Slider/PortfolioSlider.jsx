@@ -13,7 +13,8 @@ export default function PortfolioSlider({ data }) {
     slidesToShow: 3,
     speed: 500,
     dots: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
+    cssEase: "linear",
     pauseOnHover: true,
     autoplay: true,
     responsive: [

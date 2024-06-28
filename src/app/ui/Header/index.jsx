@@ -183,14 +183,14 @@ export default function Header({ variant }) {
                         </ul>
                       </DropDown>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li className="">
                       <Link
                         href="/portfolio"
                         onClick={() => setMobileToggle(false)}
                       >
                         Portfolio
                       </Link>
-                      <DropDown>
+                      {/* <DropDown>
                         <ul>
                           <li>
                             <Link
@@ -209,7 +209,7 @@ export default function Header({ variant }) {
                             </Link>
                           </li>
                         </ul>
-                      </DropDown>
+                      </DropDown> */}
                     </li>
                     <li className="menu-item-has-children">
                       <Link href="/blog" onClick={() => setMobileToggle(false)}>

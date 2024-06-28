@@ -30,47 +30,49 @@ const heroSocialLinks = [
 const funfaceData = [
   {
     title: 'Global Happy Clients',
-    factNumber: '40K',
+    factNumber: '40+',
   },
   {
     title: 'Project Completed',
-    factNumber: '50K',
+    factNumber: '15+',
   },
   {
     title: 'Team Members',
-    factNumber: '245',
+    factNumber: '10+',
   },
   {
-    title: 'Digital products',
-    factNumber: '550',
+    title: 'Experience',
+    factNumber: '5+',
   },
 ];
 // Portfolio Data
 const portfolioData = [
   {
-    title: 'Shimla xpress',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    title: 'Shimla Xpress',
+    subtitle: 'Visit Site',
+    href: 'https://shimlaxpress.in/',
     src: '/images/portfolio_1.png',
+    category: 'ui_ux_design',
   },
   {
     title: 'Growthub',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    subtitle: 'Visit Site',
+    href: 'https://frontend-five-flax.vercel.app/',
     src: '/images/portfolio_2.png',
   },
   {
     title: 'ssNeri',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    subtitle: 'Visit Site',
+    href: 'https://ssneri.com/',
     src: '/images/portfolio_4.png',
   },
   {
     title: 'Grab-IT',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    subtitle: 'Visit Site',
+    href: 'https://grab-it-pink.vercel.app/',
     src: '/images/portfolio_3.png',
   },
+ 
 ];
 
 export default function Home() {

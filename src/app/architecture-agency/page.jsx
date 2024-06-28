@@ -17,19 +17,19 @@ import { Icon } from '@iconify/react';
 const funfaceData = [
   {
     title: 'Global Happy Clients',
-    factNumber: '40K',
+    factNumber: '40',
   },
   {
     title: 'Project Completed',
-    factNumber: '50K',
+    factNumber: '15',
   },
   {
     title: 'Team Members',
-    factNumber: '245',
+    factNumber: '10+',
   },
   {
-    title: 'Digital products',
-    factNumber: '550',
+    title: 'Experience',
+    factNumber: '5+',
   },
 ];
 const portfolioData = [

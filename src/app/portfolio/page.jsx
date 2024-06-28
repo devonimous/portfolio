@@ -19,19 +19,19 @@ const portfolioData = [
   {
     title: 'Growthub',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: 'https://frontend-five-flax.vercel.app/',
     src: '/images/portfolio_2.png',
   },
   {
     title: 'ssNeri',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: 'https://ssneri.com/',
     src: '/images/portfolio_4.png',
   },
   {
     title: 'Grab-IT',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: 'https://grab-it-pink.vercel.app/',
     src: '/images/portfolio_3.png',
   },
  
@@ -134,7 +134,7 @@ export default function PortfolioPage() {
       </Div>
       <Spacing lg="145" md="80" />
       <Cta
-        title="agency@arino.com"
+        title="info@devonimous.com"
         bgSrc="/images/cta_bg_2.jpeg"
         variant="rounded-0"
       />

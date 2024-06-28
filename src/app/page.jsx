@@ -48,28 +48,28 @@ const funfaceData = [
 // Portfolio Data
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'Shimla xpress',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_1.jpeg',
+    src: '/images/portfolio_1.png',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Growthub',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_2.jpeg',
+    src: '/images/portfolio_2.png',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'ssNeri',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_0.jpg',
+    src: '/images/portfolio_4.png',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Grab-IT',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_3.jpeg',
+    src: '/images/portfolio_3.png',
   },
 ];
 
@@ -78,8 +78,8 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Devonimous"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+        title="Developing Anonymously"
+        subtitle="We excel in providing innovative problem-solving solutions and delivering exceptional finished products, both now and in the future."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
@@ -94,7 +94,7 @@ export default function Home() {
         <FunFact
           variant="cs-type1"
           title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          subtitle="At our core, we are driven by innovation and a relentless pursuit of excellence. Our team is dedicated to crafting solutions that not only meet but exceed expectations. With a focus on precision and attention to detail, we deliver results that stand the test of time. Discover how we can elevate your experience and transform your vision into reality."
           data={funfaceData}
         />
       </div>

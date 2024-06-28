@@ -5,6 +5,7 @@ import Div from '../Div';
 export default function Portfolio({ href, src, title, subtitle, variant }) {
   return (
     <Link
+    target='_blank'
       href={href}
       className={`cs-portfolio cs-bg ${variant ? variant : 'cs-style1'}`}
     >

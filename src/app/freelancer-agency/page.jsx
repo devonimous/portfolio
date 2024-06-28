@@ -26,7 +26,7 @@ const heroSocialLinks = [
 ];
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'Shimla Xprs',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_39.jpeg',
@@ -156,7 +156,7 @@ export default function FreelancerAgencyHome() {
       <Spacing lg="115" md="55" />
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
-          <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
+          <SectionHeading title="Some recent" subtitle="Our Portfolio" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>

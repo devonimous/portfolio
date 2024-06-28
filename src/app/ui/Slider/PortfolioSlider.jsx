@@ -13,7 +13,9 @@ export default function PortfolioSlider({ data }) {
     slidesToShow: 3,
     speed: 500,
     dots: true,
-    arrows: false,
+    autoplaySpeed: 4000,
+    pauseOnHover: true,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 768,

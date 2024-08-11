@@ -1,20 +1,34 @@
-# Use Node.js 18.x LTS (or another version >= v18.17.0)
-FROM node:18-alpine
+# Use the official Node.js image.
+# https://hub.docker.com/_/node
+FROM node:18 AS build
 
 # Set working directory
-WORKDIR /usr/src/app
-
-# Copy package.json and package-lock.json
-COPY package*.json ./
+WORKDIR /app
 
 # Install dependencies
-RUN npm install --production
+COPY package.json package-lock.json ./
+RUN npm install
 
-# Copy the rest of your application code
+# Copy application code
 COPY . .
 
-# Build the application
+# Build the Next.js app
 RUN npm run build
 
+# Production stage
+FROM node:18
 
-CMD [ "npm", "start" ]
+# Set working directory
+WORKDIR /app
+
+# Install production dependencies
+COPY package.json package-lock.json ./
+RUN npm install --only=production
+
+# Copy built assets from the build stage
+COPY --from=build /app/.next ./.next
+COPY --from=build /app/public ./public
+
+# Expose port and define the command to run the app
+EXPOSE 3000
+CMD ["npm", "start"]
